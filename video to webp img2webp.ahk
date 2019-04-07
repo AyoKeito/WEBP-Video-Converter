@@ -19,7 +19,7 @@ Name=
 Gui, Show, xCenter yCenter w450 h150, WEBP Video Converter
 ;by AyoKeito
 Gui, Add, Edit, ReadOnly vFileName x10 y30 w390 r1, Waiting for file
-Gui, Add, Text, x10 y11, Drag and drop your folder
+Gui, Add, Text, x10 y11, Drag and drop your file
 Gui, Add, Button, x10 y100 w390 r1.5 Default, Start
 Gui, Add, Edit, ReadOnly vName x10 y55 w390 r1, %Name%
 Gui, Add, Text, x10 y82,Framerate:
