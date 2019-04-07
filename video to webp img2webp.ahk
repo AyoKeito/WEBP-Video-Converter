@@ -69,10 +69,10 @@ FileName=%Renaming%
 StringTrimRight, Working, FileName, 4
 FileCreateDir, %Working%
 FramesFolder=%Working%
-FileInstall, img2webp.exe, %FramesFolder%\img2webp.exe, 1
+IfNotExist %FramesFolder%\img2webp.exe
+	FileInstall, img2webp.exe, %FramesFolder%\img2webp.exe, 1
 ;
 SB_SetText("Getting media information for " FileName)
-
 IfNotExist MediaInfo.exe
 	FileInstall, MediaInfo.exe, MediaInfo.exe, 1
 	MediaInfoInstalled=1
