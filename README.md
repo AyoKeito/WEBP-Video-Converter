@@ -10,7 +10,7 @@ Convert (virtually) any video to WEBP
 - ffmpeg is extracting frames from video
 - img2webp is combining these frames into WEBP file
 
-## Possible porblems:
+## Possible problems:
 - **Try to avoid** videos **more than 300-500 frames long** - they may cause problems for the encoder (no file will be created then).
 - **Try to avoid** resolutions **higher than 1280x720** - they probably won't achieve selected framerate (file will be created, but will drop frames and lag).
 - You can type your own framerate into the box, but **weird (not already in list) framerates may cause problems** (file will be created, but will drop frames and randomly jump between frames)
