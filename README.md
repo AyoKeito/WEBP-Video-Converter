@@ -18,5 +18,7 @@ Convert (virtually) any video to WEBP
 - You can **only encode one file** - no queue is available.
 
 All the temp files are removed after encoding.
+
 You can put **your own** MediaInfo.exe **CLI** and ffmpeg.exe into the same folder. Program will use them if they are placed there before it's launched. Otherwise, built-in versions will be extracted and deleted after use.
+
 You can use **your own** img2webp.exe. To do so, you should create a folder that's named as your input file minus resolution and put it there before program is launched.
