@@ -1,8 +1,6 @@
 if A_IsCompiled
     Menu, Tray, Icon, %A_ScriptFullPath%, -159
 #MaxMem 8094
-DllCall( "LoadLibrary", Str,"MediaInfo.Dll" )
-GUIRESTART:
 Gui, Destroy
 Gui, New
 Gui, -Resize +MinSize410x480 -MaximizeBox
